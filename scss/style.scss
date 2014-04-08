@@ -16,25 +16,25 @@
 // @import "foundation";
 
 // Load some Compass magic, note you will need to install Compass first
-@import "compass/css3/shared";
-@import "compass/css3/border-radius";
-@import "compass/css3/transition";
+//@import "compass/css3/shared";
+//@import "compass/css3/border-radius";
+//@import "compass/css3/transition";
 
 /* Start to customize Reverie */
 
 // add transition effect
 a, a:visited, a:hover, a:visited:hover {
-	@include transition(all 100ms linear);
+	//@include transition(all 100ms linear);
 }
 
 // add some margin for embeds in post
 figure {
-	margin: 0 auto $panel-margin-bottom;
+	//margin: 0 auto //$panel-margin-bottom;
 }
 
 // Add class for images
 figure img {
-	@include border-radius(5px);
+	//@include border-radius(5px);
 }
 
 img.alignright {
@@ -73,7 +73,7 @@ figure.figure {
 		font-style: italic;
 		padding: 8px 10px;
 		color: #999;
-		margin-bottom: $panel-margin-bottom;
+		//margin-bottom: $panel-margin-bottom;
 		display: table-caption;
 		caption-side: bottom;
 	}
@@ -177,7 +177,7 @@ $content-padding: rem-calc(50);
 }
 
 .page-numbers li span.current {
-  @include border-radius(3px);
+  //@include border-radius(3px);
 }
 
 .page-numbers li {
@@ -200,7 +200,7 @@ $content-padding: rem-calc(50);
 }
 
 .avatar {
-	@include border-radius(50%);
+	//@include border-radius(50%);
 	float: left;
 }
 
