@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Foundation libsass template
 
 This is a template to start your own project that uses Grunt and libsass!
@@ -27,3 +28,9 @@ And you're set!
 
   * `scss/_settings.scss`: Foundation configuration settings go in here
   * `scss/app.scss`: Application styles go here
+=======
+wp-foundation
+=============
+
+A Foundation Theme for Wordpress
+>>>>>>> origin/master
