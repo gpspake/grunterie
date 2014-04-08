@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-# Foundation libsass template
+#WP-Foundation
 
-This is a template to start your own project that uses Grunt and libsass!
+Yet another WordPress theme built with Foundation
 
 ## Requirements
 
@@ -14,11 +13,11 @@ You'll need to have the following items installed before continuing.
 ## Quickstart
 
 ```bash
-git clone git@github.com:zurb/foundation-libsass-template.git
+git clone https://github.com/gpspake/wp-foundation.git
 npm install && bower install
 ```
 
-While you're working on your project, run:
+While you're working on the project, run:
 
 `grunt`
 
@@ -28,9 +27,4 @@ And you're set!
 
   * `scss/_settings.scss`: Foundation configuration settings go in here
   * `scss/app.scss`: Application styles go here
-=======
-wp-foundation
-=============
 
-A Foundation Theme for Wordpress
->>>>>>> origin/master
