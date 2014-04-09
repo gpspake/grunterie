@@ -20,7 +20,7 @@ You'll need to have the following items installed before continuing.
 ## Quickstart
 
 ```bash
-git clone https://github.com/gpspake/wp-foundation.git
+git clone https://github.com/gpspake/grunterie.git
 npm install && bower install
 ```
 
