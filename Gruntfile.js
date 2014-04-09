@@ -17,6 +17,25 @@ module.exports = function(grunt) {
       }
     },
 
+	  uglify: {
+	    options: {
+	      mangle: false
+	    },
+	    my_target: {
+	      files: {
+	        'js/modernizr.min.js': ['bower_components/modernizr/modernizr.js']
+	      }
+	    }
+	  },
+
+		copy: {
+		  main: {
+		    nonull: true,
+		    src: 'bower_components/foundation/js/foundation.min.js',
+		    dest: 'js/foundation.min.js',
+		  },
+		},
+
     watch: {
       grunt: { files: ['Gruntfile.js'] },
 
@@ -29,7 +48,9 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
-
-  grunt.registerTask('build', ['sass']);
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  
+  grunt.registerTask('build', ['sass','uglify','copy']);
   grunt.registerTask('default', ['build','watch']);
 }

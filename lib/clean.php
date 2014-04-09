@@ -123,7 +123,7 @@ if( ! function_exists( 'reverie_scripts_and_styles ' ) ) {
 	  if (!is_admin()) {
 
 	    // modernizr (without media query polyfill)
-	    wp_register_script( 'reverie-modernizr', get_template_directory_uri() . '/js/modernizr.js', array(), '2.6.2', false );
+	    wp_register_script( 'reverie-modernizr', get_template_directory_uri() . '/js/modernizr.min.js', array(), '2.6.2', false );
 
 	    // register Google font
 	    wp_register_style('google-font', 'http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Lora:400,700|Droid+Sans+Mono');
