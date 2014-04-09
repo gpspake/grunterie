@@ -1,6 +1,6 @@
 #Grunterie
 
-Grunterie is a WordPress theme based on [Reverie](http://themefortress.com/reverie/), a "versatile HTML5 responsive WordPress framework based on [ZURB's Foundation](http://foundation.zurb.com/)." Reverie is set up to use the Compass gem so, if you use [Compass](http://compass-style.org/) or you want a theme that's ready-to-go, use Reverie.
+Grunterie is a WordPress theme based on [Reverie](http://themefortress.com/reverie/), a "versatile HTML5 responsive WordPress framework based on [ZURB's Foundation](http://foundation.zurb.com/)." Reverie is set up to use the Compass gem so, if you use [Compass](http://compass-style.org/) or you want a theme that's ready-to-go, use Reverie.  
 If you're in to [Grunt](http://gruntjs.com/) and want to stay on the cutting edge, here are some things that are great about Grunterie.
  * Includes all the great features in Reverie (Really, I didn't change much)
  * Built using the instructions in the [Foundation docs](http://foundation.zurb.com/docs/sass.html)
