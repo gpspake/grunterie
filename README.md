@@ -21,6 +21,7 @@ You'll need to have the following items installed before continuing.
 
 ```bash
 git clone https://github.com/gpspake/grunterie.git
+cd grunterie
 npm install && bower install
 ```
 
