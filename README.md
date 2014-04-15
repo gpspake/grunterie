@@ -1,15 +1,18 @@
 #Grunterie
 
-Grunterie is a WordPress theme based on [Reverie](http://themefortress.com/reverie/), a "versatile HTML5 responsive WordPress framework based on [ZURB's Foundation](http://foundation.zurb.com/)." Reverie is set up to use the Compass gem so, if you use [Compass](http://compass-style.org/) or you want a theme that's ready-to-go, use Reverie.  
+Grunterie is a WordPress theme based on [Reverie](http://themefortress.com/reverie/), a "versatile HTML5 responsive WordPress framework based on [ZURB's Foundation](http://foundation.zurb.com/)." Reverie is set up to use the Compass gem to compile SCSS. With Grunterie you can still use Compass but you also have the ability to use lib-SASS and all of the other grunt plugins.
+
 If you're in to [Grunt](http://gruntjs.com/) and want to stay on the cutting edge, here are some things that are great about Grunterie.
  * Includes all the great features in Reverie (Really, I didn't change much)
  * Built using the instructions in the [Foundation docs](http://foundation.zurb.com/docs/sass.html)
  * Takes full advantage of Grunt
  * Update Foundation any time with ```foundation update``` (Requires Foundation gem)
+ * Built to compile SCSS with lib-SASS by default
+ * You can still use Compass! (It's easy, you'll just need follow some quick instructions below.)
 
 ## Requirements
 
-Note: This isn't an out-of-the-box theme; you'll need to build it yourself. If you want one that's ready-to-go, use [Reverie](http://themefortress.com/reverie/).
+Update: You no longer have to build this theme yourself; it should be ready to go. That being said, if you want to customize the theme with SASS using lib-sass or Compass instead of writing vanilla css, you'll still need to follow the directions below.
 
 You'll need to have the following items installed before continuing.
 
@@ -37,3 +40,10 @@ And you're set!
   * `scss/app.scss`: Application styles go here (Probably no need to mess with this.)
   * `scss/style.scss`: Theme styles go here (Copied from Reverie with Compass stuff commented out.)
 
+#Using Compass
+
+If you want to use Compass, Grunterie comes with the [grunt-compass-contrib](https://github.com/gruntjs/grunt-contrib-compass) plugin.
+
+To use Compass, you'll need to make sure the compass gem is installed (```gem install compass```) and uncomment a few sections in the gruntfile.js file. There are detailed instructions about what to comment and uncomment in the file.  
+
+After that, just run `grunt`
