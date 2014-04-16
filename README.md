@@ -4,12 +4,12 @@ Grunterie is a WordPress theme based on [Reverie](http://themefortress.com/rever
 
 If you're in to [Grunt](http://gruntjs.com/), or not, and want to stay on the cutting edge, here are some things that are great about Grunterie.
  * Includes all the great features in Reverie (Really, I didn't change much)
+ * Ready out-of-the-box if you don't want to bother with SASS
  * Built using the instructions in the [Foundation docs](http://foundation.zurb.com/docs/sass.html)
  * Takes full advantage of Grunt
  * Update Foundation any time with ```foundation update``` (Requires Foundation gem)
  * Built to compile SCSS with lib-SASS by default
  * You can still use Compass! (It's easy, you'll just need follow some quick instructions below.)
- * Ready to go out of the box if you don't want to bother with SASS
 
 ## Requirements
 
