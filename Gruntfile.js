@@ -71,7 +71,10 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-compass')
+  /*
+   * To use Compass instead of lib-sass, uncomment thiis line:
+   */
+  //grunt.loadNpmTasks('grunt-contrib-compass')
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-uglify');
