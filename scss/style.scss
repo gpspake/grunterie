@@ -22,6 +22,13 @@
 
 /* Start to customize Reverie */
 
+// fix wp admin bar issue on small screens
+#wpadminbar {
+  @media only screen and (max-width: 600px) {
+    margin-top:-46px;
+  }
+}
+
 // add transition effect
 a, a:visited, a:hover, a:visited:hover {
 	//@include transition(all 100ms linear);
