@@ -3,7 +3,7 @@
 Grunterie is a WordPress theme based on [Reverie](http://themefortress.com/reverie/), a "versatile HTML5 responsive WordPress framework based on [ZURB's Foundation](http://foundation.zurb.com/)." Reverie is set up to use the Compass gem to compile SCSS. With Grunterie you can still use Compass but you also have the ability to use lib-SASS and all of the other grunt plugins.
 
 If you're in to [Grunt](http://gruntjs.com/), or not, and want to stay on the cutting edge, here are some things that are great about Grunterie.
- * Bleeding edge - Built with Foundation 5.3.3
+ * Bleeding edge - Built with Foundation 5.4.3
  * Includes all the great features in Reverie (Really, I didn't change much)
  * Ready out-of-the-box if you don't want to bother with SASS
  * Built using the instructions in the [Foundation docs](http://foundation.zurb.com/docs/sass.html)
