@@ -72,8 +72,8 @@ module.exports = function(grunt) {
     /*
      * To use Compass instead of lib-sass, uncomment this line and comment out the one below it:
      */
-    grunt.registerTask('style', ['sass']);
-    //grunt.registerTask('style', ['compass']);
+    //grunt.registerTask('style', ['sass']);
+    grunt.registerTask('style', ['compass']);
 
     grunt.registerTask('build', ['style','uglify','copy']);
     grunt.registerTask('default', ['style','watch']);
