@@ -1,0 +1,61 @@
+// add some margin for embeds in post
+figure {
+  //margin: 0 auto //$panel-margin-bottom;
+}
+
+// Add class for images
+figure img {
+  //@include border-radius(5px);
+}
+
+img.alignright {
+  float: right;
+  margin: 0 0 18px 18px;
+}
+
+img.alignleft {
+  float: left;
+  margin: 0 18px 18px 0;
+}
+
+img.aligncenter {
+  display: block;
+  margin: 18px auto;
+}
+
+// Fix gallery images display
+.gallery {
+  dt, dl {
+    display: inline-block;
+  }
+  dl {
+    margin-left: rem-calc(9);
+    margin-right: rem-calc(9);
+  }
+}
+
+// Add HTML5 Caption Class for Images
+figure.figure {
+  margin: 0 auto;
+  display: table;
+  figcaption {
+    font-size: rem-calc(14);
+    line-height: 1.4;
+    font-style: italic;
+    padding: 8px 10px;
+    color: #999;
+    //margin-bottom: $panel-margin-bottom;
+    display: table-caption;
+    caption-side: bottom;
+  }
+}
+
+figure.alignright.figure {
+  float: right;
+  margin: 0 0 18px 18px;
+}
+
+figure.alignleft.figure {
+  float: left;
+  margin: 0 18px 18px 0;
+}

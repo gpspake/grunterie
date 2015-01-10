@@ -1,0 +1,86 @@
+// add transition effect
+a, a:visited, a:hover, a:visited:hover {
+  //@include transition(all 100ms linear);
+}
+
+#content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.index-card {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: rem-calc(32);
+  margin-bottom: rem-calc(32);
+}
+
+span.author,
+time {
+  font-size: rem-calc(15);
+  color: #999;
+  a {
+    color: #999;
+    font-weight: bold;
+    &:hover, &:focus {
+      color: $body-font-color;
+    }
+  }
+}
+
+// define content padding for later use
+$content-padding: rem-calc(50);
+
+.entry-author {
+  background-color: #fbfbfb;
+  border: none;
+  padding: rem-calc(50) rem-calc(80);
+  margin: rem-calc(50) (-($column-gutter/2));
+  .avatar {
+    margin-right: rem-calc(40);
+    margin-bottom: rem-calc(24);
+  }
+  h4 {
+    a {
+      color: #999;
+      &:hover, &:focus {
+        color: $body-font-color;
+      }
+    }
+  }
+  p {
+    color: #bbb;
+  }
+}
+
+.post header,
+.page header {
+  margin-bottom: rem-calc(20);
+}
+
+.entry-tags {
+  color: #999;
+  font-size: rem-calc(15);
+  a {
+    color: #999;
+    &:hover, &:focus {
+      color: $body-font-color;
+    }
+  }
+}
+
+@media #{$medium-up} {
+  #content {
+    padding: $content-padding;
+  }
+  .entry-author {
+    margin: rem-calc(50) (-$content-padding);
+  }
+}
+
+@media #{$small-up} {
+  .entry-author {
+    .avatar {
+      margin-bottom: rem-calc(20);
+    }
+  }
+}

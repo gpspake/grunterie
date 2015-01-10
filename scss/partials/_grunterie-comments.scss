@@ -1,0 +1,54 @@
+.avatar {
+  //@include border-radius(50%);
+  float: left;
+}
+
+ol.commentlist {
+  margin-left: 0;
+  margin-top: 2em;
+  p {
+    font-size: rem-calc(15);
+    line-height: 1.5;
+  }
+  ul.children {
+    margin-left: rem-calc(64);
+  }
+  li {
+    list-style: none;
+    margin-bottom: 2em;
+
+    .comment-author img {
+      float: left;
+      margin: 0 1em 0 0;
+    }
+    .author-meta {
+      display: inline-block;
+      cite.fn {
+        font-style: normal;
+        font-weight: 600;
+        margin-right: rem-calc(8);
+      }
+      time a {
+        color: #ccc;
+        font-size: rem-calc(14);
+        margin-right: rem-calc(8);
+      }
+      .comment-edit-link {
+        color: #bbb;
+        font-size: rem-calc(14);
+      }
+    }
+    section.comment {
+      margin-left: rem-calc(64);
+      margin-bottom: rem-calc(32);
+      a.comment-reply-link {
+        font-size: rem-calc(14);
+        font-weight: 600;
+        color: #bbb;
+        &:hover, &:focus {
+          color: $body-font-color;
+        }
+      }
+    }
+  }
+}
