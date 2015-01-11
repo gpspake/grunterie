@@ -51,19 +51,16 @@ module.exports = function(grunt) {
         watch: {
             grunt: { files: ['Gruntfile.js'] },
 
-            /*
-             * To use Compass instead of lib-sass, uncomment this section and comment out the one below it:
-             */
+            //To use Compass instead of lib-sass, uncomment this task and comment out the one below it:
             //compass: {
             //    files: 'scss/**/*.scss',
             //    tasks: ['compass']
-            //},
+            //}
 
             sass: {
                 files: 'scss/**/*.scss',
                 tasks: ['sass']
             }
-
         }
     });
 
@@ -73,12 +70,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-copy');
 
-    /*
-     * To use Compass instead of lib-sass, uncomment this line and comment out the one below it:
-     */
+    //To use Compass instead of lib-sass, uncomment this line and comment out the one below it:
     //grunt.registerTask('style', ['compass']);
     grunt.registerTask('style', ['sass']);
-
 
     grunt.registerTask('build', ['style','uglify','copy']);
     grunt.registerTask('default', ['style','watch']);

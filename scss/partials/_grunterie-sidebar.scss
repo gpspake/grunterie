@@ -1,0 +1,40 @@
+#sidebar {
+  margin-top: rem-calc(20);
+}
+
+#sidebar, .footer-widget {
+  .panel {
+    border: none;
+    background-color: #eee;
+    padding: rem-calc(24) rem-calc(30);
+    a {
+      color: #999;
+      font-size: rem-calc(15);
+      &:hover, &:focus {
+        color: $body-font-color;
+      }
+    }
+  }
+  ul {
+    list-style-type: none;
+    margin-left: 0;
+  }
+  .widget {
+    h4 {
+      text-transform: uppercase;
+      font-size: rem-calc(16);
+      padding-bottom: rem-calc(16);
+      border-bottom: 1px solid #ddd;
+      color: #888;
+      font-weight: 600;
+    }
+  }
+}
+
+@media #{$large-up} {
+  #sidebar {
+    padding-left: $column-gutter;
+    padding-right: 0;
+    margin-top: rem-calc(0);
+  }
+}

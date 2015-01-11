@@ -1,0 +1,15 @@
+// fix wp admin bar issue on small screens
+#wpadminbar {
+  @media only screen and (max-width: 600px) {
+    margin-top: -46px;
+  }
+}
+
+// Fix admin bar issue, by bybe on Github
+.admin-bar > .fixed {
+  margin-top: rem-calc(32);
+}
+
+.f-topbar-fixed > .container {
+  margin-top: rem-calc(32);
+}
