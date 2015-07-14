@@ -14,10 +14,6 @@ get_header(); ?>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
 				<?php reverie_entry_meta(); ?>
 			</header>
-			<div class="range-slider" data-slider>
-  <span class="range-slider-handle"></span>
-  <span class="range-slider-active-segment"></span>
-  <input type="hidden">
 </div>
 			<div class="entry-content">
 				<?php the_content(); ?>
